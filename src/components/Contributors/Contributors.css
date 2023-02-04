@@ -1,0 +1,51 @@
+.app_contributors{
+    display: flex-column;
+    height:10rem;
+    width:100%;
+    background-color:rgba(0,21,83,0.38);
+}
+.contributor_navbar_separation{
+    width:100%;
+    height:2px;
+    background-color: white;
+}
+.contributor_heading{
+    font-size:30px;
+    font-weight:600;
+    line-height: 50px;
+    text-align: center;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.contributor_heading:hover{
+   border-bottom:1px solid white;
+   
+}
+.app_contributors_container{
+    justify-content: center;
+    
+    display:flex;
+    margin:30px;
+}
+.contributton_icon{
+    display:flex-column;
+    margin:0px 5px;
+    
+}
+.contributton_icon img{
+    border:1px solid white;
+    height: 45px;
+    height: 45px;
+    border-radius:50%;
+    
+}
+.contributton_icon p{
+   font-size: 1px;
+}
+.contributton_icon p:hover{
+    font-size:10px;
+    color:yellow
+
+    
+}
