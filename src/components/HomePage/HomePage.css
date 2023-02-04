@@ -1,5 +1,82 @@
 .app_homepage{
-    height:300px;
+    height:100%;
     width:100%;
-    background-color:rgba(0,21,83,0.32);
+    background-color:black;
+    padding-top:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.app_homepage_heading{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color:white;
+    text-align:center;
+
+}
+.app_homepage_heading span{
+    font-size: 3rem;
+    color:white;
+    text-align:center;
+     
+ }
+.app_homepage_heading span:hover{
+   border:2px solid grey;
+   border-radius:5px;
+   padding:5px;
+    
+}
+.app_homepage_aboutus,.app_homepage_content,.app_homepage_contribute{
+display:flex;
+flex-direction:row;
+margin:4rem;
+margin-bottom: 5px;
+align-items:center;
+
+
+}
+.app_homepage_aboutus{
+    justify-content:flex-start;
+
+}
+.app_homepage_content{
+    justify-content:flex-end;
+
+}
+.app_homepage_contribute{
+    justify-content:flex-start;
+
+}
+.app_homepage_flag{
+    width:40px;
+    height:40px;
+}
+.hompage_flag_container{
+   height:40px;
+   width:40px;
+   border:2px solid gray;
+   border-radius:50%;
+   background-color: white;
+   
+ 
+    
+}
+.hompage_flag_container img{
+   display:none;
+}
+.app_homepage_containers{
+   height:120px;
+   width:45%;
+   background-color:rgba(0,21,83,0.38);
+   color:white;
+   font-style: italic;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   border:2px solid white;
+   border-radius:10px;
+
+   
 }

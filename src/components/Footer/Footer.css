@@ -1,0 +1,31 @@
+.footer_separation{
+    width:100%;
+    height:2px;
+    background-color: white;
+}
+.app_footer{
+    height:4rem;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgba(22,46,130,0.06);
+}
+.app_footer_contact{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+
+}
+.app_footer_contact span{
+    font-weight: 500;
+
+}
+.app_footer_socialmedia_icons{
+    display:flex;
+    flex-direction: row;
+margin:1rem;
+}
